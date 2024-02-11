@@ -1,0 +1,37 @@
+.MainPage {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MainPage div {
+  text-align: center;
+}
+.MainPage img {
+  max-width: 500px;
+  max-height: 250px;
+  margin-bottom: 50px;
+  object-fit: cover;
+}
+.MainPage h1 {
+  margin: 0;
+  margin-bottom: 100px;
+  font-size: 100px;
+}
+.MainPage button {
+  margin: auto 30px;
+  height: 80px;
+  font-size: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+button:hover {
+  color: rgba(0, 0, 0, 0.691);
+}
+button:active {
+  font-size: 39px;
+}
